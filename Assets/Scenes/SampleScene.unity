@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 193800489}
   - component: {fileID: 193800488}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Question Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,6 +667,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6242363658672182075, guid: 8d6009b8e0bda4496ae09fd4653069bf, type: 3}
   m_PrefabInstance: {fileID: 420789350}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &451306827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6760241150742021942, guid: 8d6009b8e0bda4496ae09fd4653069bf, type: 3}
+  m_PrefabInstance: {fileID: 420789350}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +823,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &952361154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6760241150742021942, guid: 8d6009b8e0bda4496ae09fd4653069bf, type: 3}
+  m_PrefabInstance: {fileID: 1906410935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116824405
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1006,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230590235}
   m_CullTransparentMesh: 1
+--- !u!1 &1508714518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6760241150742021942, guid: 8d6009b8e0bda4496ae09fd4653069bf, type: 3}
+  m_PrefabInstance: {fileID: 1806370350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1754135379 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6760241150742021942, guid: 8d6009b8e0bda4496ae09fd4653069bf, type: 3}
+  m_PrefabInstance: {fileID: 6967733462939436571}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1806370350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1190,6 +1210,7 @@ GameObject:
   - component: {fileID: 1890938964}
   - component: {fileID: 1890938963}
   - component: {fileID: 1890938962}
+  - component: {fileID: 1890938966}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -1280,6 +1301,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1890938966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890938961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5ab8a4cac7e422f9067ef7f97a1214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 193800488}
+  question: {fileID: 11400000, guid: d95d81222922349e6a05958a7cb97a8c, type: 2}
+  answerButtons:
+  - {fileID: 1754135379}
+  - {fileID: 952361154}
+  - {fileID: 451306827}
+  - {fileID: 1508714518}
 --- !u!1001 &1906410935
 PrefabInstance:
   m_ObjectHideFlags: 0
